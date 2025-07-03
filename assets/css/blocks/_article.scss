@@ -1,0 +1,6 @@
+.article {
+    &__inner {
+        max-width: var(--contents-max-width);
+        margin: 0 auto;
+    }
+}

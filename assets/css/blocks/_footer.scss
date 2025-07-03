@@ -1,0 +1,13 @@
+.footer {
+    padding: 40px 60px 20px;
+    background-color: #eee;
+
+    &__inner {
+        max-width: var(--contents-max-width);
+        margin: 0 auto;
+    }
+
+    &__source-code {
+        font-size: 0.9rem;
+    }
+}
