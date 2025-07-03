@@ -20,5 +20,5 @@ jobs:
     - run: bundle install
     - run: bundle exec jekyll build --base "${GITHUB_REPOSITORY#${GITHUB_REPOSITORY_OWNER}/}"
     - uses: actions/upload-pages-artifact@v3
-        with:
-          path: './_site'
+      with:
+        path: './_site'
